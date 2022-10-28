@@ -7,14 +7,20 @@ body{
 #name {
     color: blue;
 }
-#lop {
-    color: yellow;
+.fact{
+    margin: 40px;
+    color: darkgoldenrod;
+}
+.text{
+    text-align: center;
+    margin: -600px;
+    color: darkgoldenrod;
 }
 nav {
     text-align: center;
-    margin: 15px auto 0;
+    margin: 25px auto 0;
     position: relative;
-    width: 700px;
+    width: 730px;
     height: 50px;
   
 
@@ -36,56 +42,56 @@ nav .animation{
     height: 100%;
     top: 0;
     z-index: 0;
-    transition: all .6s ease 0s;
-    border-radius: 20px;
+    transition: all .5s ease 0s;
+    border-radius: 25px;
 
 }
 a:nth-child(1) {
-    width: 110px;
+    width: 90px;
 }
 a:nth-child(2) {
-    width: 120px;
+    width: 100px;
 }
 a:nth-child(3) {
-    width: 110px;
+    width: 130px;
 }
 a:nth-child(4) {
-    width: 120px;
+    width: 130px;
 }
 a:nth-child(5) {
-    width: 110px;
+    width: 120px;
 }
 a:nth-child(6) {
-    width: 110px;
+    width: 100px;
 }
 nav .start-home, a:nth-child(1):hover ~ .animation {
     width: 120px;
-    left: 0px;
-    background-color: #1abc9c;
+    left: 5px;
+    background-color: lightskyblue;
 }
 nav .start-home, a:nth-child(2):hover ~ .animation {
     width: 120px;
-    left: 116px;
+    left: 103px;
     background-color: #1abc9c;
 }
 nav .start-home, a:nth-child(3):hover ~ .animation {
     width: 120px;
-    left: 235px;
+    left: 225px;
     background-color: #1abc9c;
 }
 nav .start-home, a:nth-child(4):hover ~ .animation {
     width: 120px;
-    left: 355px;
+    left: 357px;
     background-color: #1abc9c;
 }
 nav .start-home, a:nth-child(5):hover ~ .animation {
     width: 120px;
-    left: 471px;
+    left: 485px;
     background-color: #1abc9c;
 }
 nav .start-home, a:nth-child(6):hover ~ .animation {
     width: 120px;
-    left: 585px;
+    left: 600px;
     background-color: #1abc9c;
 }
 

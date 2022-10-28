@@ -5,5 +5,11 @@ body {
     background-size: cover;
 }
 #name {
-    color: plum;
+    color: lawngreen;
+}
+div{
+    margin: 0 260px;
+    color: bisque;;
+    background-color: rgb(10,10,10,0.5);
+    width: 930px;
 }
